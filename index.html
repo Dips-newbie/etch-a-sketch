@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <script src="scripts/script.js" defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <div class="main_heading">Etch-A-Sketch</div>
+    </head>
+    <body>
+        <div class="buttonscontainer">
+           <div id="slider">
+            <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
+            <p>Grid : <span id="gridValue">10 x 10</span></p>
+            </div>
+
+            <div class="colorbutton">
+                <input type="color" id="favcolor"  ><br><br>
+            </div>
+
+            <div id="clear">
+                <button id="clear_btn">Clear</button>
+            </div>
+
+        </div>
+
+        <div id="gridcontainer"></div>
+    </body>
+</html>
